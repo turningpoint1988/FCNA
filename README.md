@@ -15,12 +15,6 @@ Locating TFBSs by fully convolutional network
   ```
   bash process.sh <data path>
   ```
-  
- (3) Encoding ChIA-PET datasets by using embeding or one-hot.
-+ Usage:
-  ```
-  bash /ChIA-PET/Prepare.sh <data path>
-  ```
 
 ## Run 
 **Running FCNA**
@@ -44,5 +38,4 @@ Locating TFBSs by fully convolutional network
 + Usage: 
   Firstly encoding the located regions.
   Secondly running FCNAR on them.
-  
   

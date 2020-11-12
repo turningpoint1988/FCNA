@@ -16,7 +16,7 @@ Locating TFBSs by fully convolutional network
   bash process.sh <data path>
   ```
 
-## Run 
+## Implementation 
 **Running FCNA**
 + Usage: 
   ```
@@ -35,8 +35,7 @@ Locating TFBSs by fully convolutional network
   ```
   
 **Refining the prediction performance**
-+ Usage: 
-  
++ Usage:  
   Firstly encoding the located regions;
   Secondly running FCNAR on them.
   

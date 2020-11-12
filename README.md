@@ -36,6 +36,7 @@ Locating TFBSs by fully convolutional network
   
 **Refining the prediction performance**
 + Usage: 
-  Firstly encoding the located regions.
+  
+  Firstly encoding the located regions;
   Secondly running FCNAR on them.
   

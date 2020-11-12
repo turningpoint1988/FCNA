@@ -1,5 +1,5 @@
 # FCNA
-Locating TFBSs by fully convolutional network
+Locating Transcription factor binding sites (TFBSs) by fully convolutional network
 ## Requirements
 
 + Pytorch 1.1 

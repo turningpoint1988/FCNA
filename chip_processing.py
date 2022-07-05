@@ -104,7 +104,8 @@ def main():
     out_dir = osp.join(params.dir, 'data/')
     if not osp.exists(out_dir):
         os.mkdir(out_dir)
-    sequence_dict = SeqIO.to_dict(SeqIO.parse(open('/home/**/FCNMotif/hg19/hg19.fa'), 'fasta'))
+    root = osp.dirname(__file__)
+    sequence_dict = SeqIO.to_dict(SeqIO.parse(open(osp.join(root, 'FCNMotif/hg19/hg19.fa')), 'fasta'))
     print('Experiment on %s dataset' % name)
     seqs_bed = data_dir + '/all_sort_merge.bed'
     pfmfile = data_dir + '/%s.txt' % name

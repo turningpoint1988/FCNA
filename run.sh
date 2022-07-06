@@ -5,7 +5,7 @@ for experiment in $(ls ./$Datadir/)
 do
     echo "working on $experiment."
     if [ ! -d ./models/$experiment ]; then
-        mkdir ./models/$experiment
+        mkdir -p ./models/$experiment
     else
         continue
     fi
